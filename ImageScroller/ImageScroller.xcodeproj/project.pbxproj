@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810E75CE1E3742B4006490C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E75CD1E3742B4006490C6 /* AppDelegate.swift */; };
+		810E75D01E3742B4006490C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E75CF1E3742B4006490C6 /* ViewController.swift */; };
+		810E75D31E3742B4006490C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810E75D11E3742B4006490C6 /* Main.storyboard */; };
+		810E75D51E3742B4006490C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810E75D41E3742B4006490C6 /* Assets.xcassets */; };
+		810E75D81E3742B4006490C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810E75D61E3742B4006490C6 /* LaunchScreen.storyboard */; };
+		810E75E01E3742F3006490C6 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810E75DF1E3742F3006490C6 /* ImageScrollView.swift */; };
+		810E75E41E3758DA006490C6 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 810E75E11E3758DA006490C6 /* 1.png */; };
+		810E75E51E3758DA006490C6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 810E75E21E3758DA006490C6 /* 2.png */; };
+		810E75E61E3758DA006490C6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 810E75E31E3758DA006490C6 /* 3.png */; };
+		812B9AA91F3AF413000239DF /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 812B9AA81F3AF413000239DF /* 4.png */; };
+		812B9AAC1F3AF43E000239DF /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 812B9AAB1F3AF43E000239DF /* 5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		810E75CA1E3742B4006490C6 /* ImageScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		810E75CD1E3742B4006490C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		810E75CF1E3742B4006490C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		810E75D21E3742B4006490C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		810E75D41E3742B4006490C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810E75D71E3742B4006490C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		810E75D91E3742B4006490C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810E75DF1E3742F3006490C6 /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		810E75E11E3758DA006490C6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		810E75E21E3758DA006490C6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		810E75E31E3758DA006490C6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		812B9AA81F3AF413000239DF /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		812B9AAB1F3AF43E000239DF /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810E75C71E3742B4006490C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810E75C11E3742B4006490C6 = {
+			isa = PBXGroup;
+			children = (
+				810E75CC1E3742B4006490C6 /* ImageScroller */,
+				810E75CB1E3742B4006490C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810E75CB1E3742B4006490C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810E75CA1E3742B4006490C6 /* ImageScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810E75CC1E3742B4006490C6 /* ImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				810E75E11E3758DA006490C6 /* 1.png */,
+				810E75E21E3758DA006490C6 /* 2.png */,
+				810E75E31E3758DA006490C6 /* 3.png */,
+				812B9AA81F3AF413000239DF /* 4.png */,
+				812B9AAB1F3AF43E000239DF /* 5.png */,
+				810E75DF1E3742F3006490C6 /* ImageScrollView.swift */,
+				810E75CD1E3742B4006490C6 /* AppDelegate.swift */,
+				810E75CF1E3742B4006490C6 /* ViewController.swift */,
+				810E75D11E3742B4006490C6 /* Main.storyboard */,
+				810E75D41E3742B4006490C6 /* Assets.xcassets */,
+				810E75D61E3742B4006490C6 /* LaunchScreen.storyboard */,
+				810E75D91E3742B4006490C6 /* Info.plist */,
+			);
+			path = ImageScroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810E75C91E3742B4006490C6 /* ImageScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810E75DC1E3742B4006490C6 /* Build configuration list for PBXNativeTarget "ImageScroller" */;
+			buildPhases = (
+				810E75C61E3742B4006490C6 /* Sources */,
+				810E75C71E3742B4006490C6 /* Frameworks */,
+				810E75C81E3742B4006490C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageScroller;
+			productName = ImageScroller;
+			productReference = 810E75CA1E3742B4006490C6 /* ImageScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		810E75C21E3742B4006490C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Spring Sprout";
+				TargetAttributes = {
+					810E75C91E3742B4006490C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 810E75C51E3742B4006490C6 /* Build configuration list for PBXProject "ImageScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810E75C11E3742B4006490C6;
+			productRefGroup = 810E75CB1E3742B4006490C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810E75C91E3742B4006490C6 /* ImageScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810E75C81E3742B4006490C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810E75E51E3758DA006490C6 /* 2.png in Resources */,
+				810E75D81E3742B4006490C6 /* LaunchScreen.storyboard in Resources */,
+				812B9AA91F3AF413000239DF /* 4.png in Resources */,
+				810E75E61E3758DA006490C6 /* 3.png in Resources */,
+				810E75E41E3758DA006490C6 /* 1.png in Resources */,
+				810E75D51E3742B4006490C6 /* Assets.xcassets in Resources */,
+				812B9AAC1F3AF43E000239DF /* 5.png in Resources */,
+				810E75D31E3742B4006490C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810E75C61E3742B4006490C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810E75E01E3742F3006490C6 /* ImageScrollView.swift in Sources */,
+				810E75D01E3742B4006490C6 /* ViewController.swift in Sources */,
+				810E75CE1E3742B4006490C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		810E75D11E3742B4006490C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810E75D21E3742B4006490C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		810E75D61E3742B4006490C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810E75D71E3742B4006490C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		810E75DA1E3742B4006490C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810E75DB1E3742B4006490C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810E75DD1E3742B4006490C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageScroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.springsprout.ImageScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		810E75DE1E3742B4006490C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageScroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.springsprout.ImageScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810E75C51E3742B4006490C6 /* Build configuration list for PBXProject "ImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810E75DA1E3742B4006490C6 /* Debug */,
+				810E75DB1E3742B4006490C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810E75DC1E3742B4006490C6 /* Build configuration list for PBXNativeTarget "ImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810E75DD1E3742B4006490C6 /* Debug */,
+				810E75DE1E3742B4006490C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 810E75C21E3742B4006490C6 /* Project object */;
+}
